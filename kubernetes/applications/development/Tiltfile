@@ -1,0 +1,5 @@
+include('../../../../PolarBookshop/catalog-service/Tiltfile')
+include('../../../../PolarBookshop/config-service/Tiltfile')
+include('../../../../PolarBookshop/order-service/Tiltfile')
+
+update_settings(max_parallel_updates=1)
