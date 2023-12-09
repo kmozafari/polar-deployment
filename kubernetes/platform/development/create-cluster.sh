@@ -29,7 +29,7 @@ echo "\n⌛ Waiting for KeyCloak to be ready..."
 kubectl wait \
   --for=condition=ready pod \
   --selector=app=polar-keycloak \
-  --timeout=300s
+  --timeout=150s
 
 ################################################################
 
