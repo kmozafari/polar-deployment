@@ -12,7 +12,7 @@ configMapGenerator:
 images:
 - name: dispatcher-service
   newName: ghcr.io/kmozafari/dispatcher-service
-  newTag: latest
+  newTag: a19241536c0af3ed41d9710dc811b3b099ee114e
 
 replicas:
 - count: 1
