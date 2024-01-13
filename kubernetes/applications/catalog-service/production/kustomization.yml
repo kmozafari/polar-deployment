@@ -12,7 +12,7 @@ configMapGenerator:
 images:
 - name: catalog-service
   newName: ghcr.io/kmozafari/catalog-service
-  newTag: d1f7e68949b3a38afd9188fd134f5c817eca9db9
+  newTag: c5d70194087d066554762ac617b34a692a553bef
 
 replicas:
 - count: 2
