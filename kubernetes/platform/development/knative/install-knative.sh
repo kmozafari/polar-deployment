@@ -24,7 +24,7 @@ echo "\n📦 Configuring DNS..."
 kubectl patch configmap/config-domain \
   --namespace knative-serving \
   --type merge \
-  --patch '{"data":{"127-0-0-1.sslip.io":""}}'
+  --patch '{"data":{"127.0.0.1.nip.io":""}}'
 
 kubectl apply -f https://github.com/knative/serving/releases/download/knative-v1.12.3/serving-default-domain.yaml
 
